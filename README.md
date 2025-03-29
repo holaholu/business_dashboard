@@ -1,5 +1,7 @@
 # Business Data Dashboard
 
+![Business Dashboard Preview](./dashboard-preview.png)
+
 An interactive data visualization dashboard built with React and D3.js, showcasing various business metrics and analytics.
 
 ## Features
