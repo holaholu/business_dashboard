@@ -1,8 +1,28 @@
-# Getting Started with Create React App
+# Business Data Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive data visualization dashboard built with React and D3.js, showcasing various business metrics and analytics.
 
-## Available Scripts
+## Features
+
+- **Performance Metrics**: Radar chart displaying key performance indicators
+- **Weekly Activity Trends**: Line chart showing activity patterns throughout the week
+- **Monthly Sales Trend**: Bar chart visualizing sales data over months
+- **Website Traffic**: Area chart representing visitor traffic patterns
+- **Weekly Revenue**: Stacked bar chart comparing revenue streams
+
+## Technologies Used
+
+- **React**: Frontend framework for building the user interface
+- **TypeScript**: Type-safe development
+- **D3.js**: Data visualization library for creating interactive charts
+- **Material-UI**: Modern UI components and styling
+- **Custom Hooks**: React hooks for D3.js integration
+
+## Live Demo
+
+Visit the live dashboard at: [https://leafy-chaja-26f1d6.netlify.app/](https://leafy-chaja-26f1d6.netlify.app/)
+
+## Getting Started
 
 In the project directory, you can run:
 
@@ -39,8 +59,29 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+src/
+├── components/     # React components for charts and layout
+├── hooks/         # Custom hooks for D3.js integration
+├── data/          # Sample data and data utilities
+├── types/         # TypeScript type definitions
+└── utils/         # Helper functions and utilities
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Implementation Details
+
+- **Responsive Design**: Charts automatically resize based on viewport
+- **Interactive Elements**: Hover effects and tooltips for data points
+- **Grid/Expanded Views**: Toggle between compact and detailed views
+- **Real-time Updates**: Data refreshes to simulate live updates
+- **Theme Integration**: Consistent styling with Material-UI theme
+
+## Future Enhancements
+
+- Add more chart types and visualization options
+- Implement data filtering and sorting
+- Add export functionality for charts
+- Include more interactive features and animations
+- Add unit tests and integration tests
