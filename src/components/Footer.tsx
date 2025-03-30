@@ -16,7 +16,6 @@ import {
 import {
   GitHub as GitHubIcon,
   LinkedIn as LinkedInIcon,
-  Twitter as TwitterIcon,
   Email as EmailIcon
 } from '@mui/icons-material';
 
